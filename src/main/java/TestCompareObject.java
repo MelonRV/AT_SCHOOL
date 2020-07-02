@@ -6,8 +6,8 @@ public class TestCompareObject {
         ArrayList<String>list =  new ArrayList<String>();
         ArrayList<Integer>list1 = new ArrayList<Integer>();
 
-        System.out.println(CompareObjects.compare(list,list1));
-        System.out.println(CompareObjects.compareHashCode(list,list1));
-        System.out.println(CompareObjects.compareToString(list,list1));
+        System.out.println("Тест метода сравнения объектов: " + CompareObjects.compare(list,list1));
+        System.out.println("Тест метода перевода объектов в строку и сравнивнения: " + CompareObjects.compareHashCode(list,list1));
+        System.out.println("Тест метода сравнивнения хэш-кодов объектов: " + CompareObjects.compareToString(list,list1));
     }
 }
